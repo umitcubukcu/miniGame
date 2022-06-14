@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>Guess Number Game</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+   <title>Document</title>
+</head>
+
+<body>
+   <div class="container">
+      <div class="top">
+         <div class="again">
+            <p id="tryAgain">Again!</p>
+         </div>
+         <div class="rangeInfo">
+            <p>&lt Between 1 and 20 &gt </p>
+         </div>
+      </div>
+      <div class="middle">
+         <div class="title">Guess My Number</div>
+         <div class="score-table">
+            <div class="left"></div>
+            <div class="situation">?</div>
+            <div class="right"></div>
+         </div>
+      </div>
+      <div class="bottom">
+         <div class="left-side">
+            <div class="input-num">
+               <input type="number" id="inputGuess" placeholder="Guess">
+               <p id="checkButton">Check!</p>
+            </div>
+         </div>
+         <div class="right-side">
+            <div class="alert" id="alertMessage">Let's start</div>
+            <div class="score">Score:<span id="score">100</span> </div>
+            <div class="high-score" >Higgest Score:<span id="highScore">0</span></div>
+         </div>
+      </div>
+   </div>
+   <script src="main.js"></script>
+</body>
+
+</html>
